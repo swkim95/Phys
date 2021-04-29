@@ -40,7 +40,9 @@ cmsRun data_cfg.py >&log_data& ### if the muon server is busy, it takes 1-2 days
 
 cmsRun mc_cfg.py >&log_mc&
 
-top ## make sure your codes are running and finishes
+top ## make sure your codes are running and finishes 
+
+###all samples are available in /scratch/hdyoo/OpenData/samples/copy in muon server
 
 # produce the dimuon invariant mass distribution of selected events: Z boson candidates
 
