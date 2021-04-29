@@ -6,7 +6,10 @@
 
 
 setenv SCRAM_ARCH slc6_amd64_gcc472
+
+
 setenv VO_CMS_SW_DIR /cvmfs/cms.cern.ch
+
 source $VO_CMS_SW_DIR/cmsset_default.csh
 
 # setup working directory with cmssw release
