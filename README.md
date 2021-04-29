@@ -1,8 +1,8 @@
 # "Phys" package is to make ntuples and dimuon analysis to select events for Z peak region (60 < M_ll < 120 GeV)
-  # this runs with the following recipe (with csh or tcsh based)
 
-# setup envirnment
-setenv SCRAM_ARCH slc6_amd64_gcc472
+# setup envirnment 
+###this runs with the following recipe (with csh or tcsh based) //
+setenv SCRAM_ARCH slc6_amd64_gcc472 \\
 setenv VO_CMS_SW_DIR /cvmfs/cms.cern.ch
 source $VO_CMS_SW_DIR/cmsset_default.csh
 
